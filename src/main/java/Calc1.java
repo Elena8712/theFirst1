@@ -1,14 +1,17 @@
+/*
+автор - Клейменова Елена
+**/
 import java.util.Scanner;
 
 public class Calc1 {
-    public static final void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Выберите действие:");
-        System.out.println("1 - калькулятор");
-        System.out.println("2 - поиск максимального слова");
-        int t = scanner.nextInt();
+    public static final void main(String[] args) {//создаем метод main
+        Scanner scanner = new Scanner(System.in);//создаем объект класса scanner
+        System.out.println("Выберите действие:");//выводим на консоль запись
+        System.out.println("1 - калькулятор");//выводим на консоль запись
+        System.out.println("2 - поиск максимального слова");//выводим на консоль запись
+        int t = scanner.nextInt();//создаем переменную t и присваиваем ей значение, введенное в консоль
 
-        if (t == 1) {
+        if (t == 1) {//устанавливаем условие для цикла if
 
             System.out.println("Введите тип операции:сложение, вычитание, умножение деление");
             String tipeoperation = scanner.next();
