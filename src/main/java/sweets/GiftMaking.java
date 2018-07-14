@@ -11,6 +11,6 @@ public class GiftMaking {
         gift.addSweets();
         gift.addSweets();
         gift.printResult();
-        // нужен ли метод для удаления
+        
     }
 }
