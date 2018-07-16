@@ -7,7 +7,7 @@ public class ReadingFromFile {
 
     public static void main(String [] args) throws FileNotFoundException{
 
-        File file = new File(pathname: "TestFile2");
+        File file = new File("TestFile2");
 
         Scanner scanner = new Scanner(file);
         String line = scanner.nextLine();
