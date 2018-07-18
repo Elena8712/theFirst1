@@ -22,7 +22,6 @@ public class ReadingFromFile {
 
         String list1[] = new String[wordsList.size()];
         list1 = wordsList.toArray(list1);
-        Arrays.sort(list1);
         Map<String, Integer> map = new HashMap<String, Integer>();
         Set<String> words = new HashSet<String>(Arrays.asList(list1));
         int count = 0;
