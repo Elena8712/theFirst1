@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class calculate {
     static Scanner scanner = new Scanner(System.in);
-    public static void main(String[] args){
+    public static void main(String[] args) throws Exception {
         Division div = new Division();
         Multiplication mult = new Multiplication();
         Subtraction sub = new Subtraction();
